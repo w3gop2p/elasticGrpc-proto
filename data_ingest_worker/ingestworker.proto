@@ -25,7 +25,7 @@ message GetDataResponse {
 }
 
 // Define the Payment service
-service Payment {
+service RetrieveData {
   rpc GetData(Empty) returns (GetDataResponse);
 }
 // Define an empty message for the request
